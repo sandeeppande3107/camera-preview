@@ -799,7 +799,7 @@ public class CameraActivity extends Fragment {
                     }
 
                     mCamera.setParameters(params);
-                    mCamera.takePicture(shutterCallback, null, jpegPictureCallback);
+                    mCamera.takePicture(null, null, jpegPictureCallback);
                 }
             }
                 .start();

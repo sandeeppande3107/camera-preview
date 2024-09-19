@@ -799,6 +799,7 @@ public class CameraActivity extends Fragment {
                     }
 
                     mCamera.setParameters(params);
+                    mCamera.enableShutterSound(false);
                     mCamera.takePicture(null, null, jpegPictureCallback);
                 }
             }
